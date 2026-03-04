@@ -2,7 +2,7 @@
 using namespace std;
 
 int main()
-{ // BASIC PAATERN TRIANGLE---->>
+{   // BASIC PAATERN TRIANGLE---->>
     /*int n;
     cout << "Enter a number: ";
     cin >> n;
@@ -56,7 +56,7 @@ int main()
             cout << "*";
         }
         cout << endl;
-    }*/
+    }
 
     int n = 4;
     for (int i = 0; i < n; i++)
@@ -66,5 +66,32 @@ int main()
             cout << (i + 1);
         }
         cout << endl;
+    }*/
+    /*1
+      1 2
+      1 2 3
+      1 2
+      1
+      */
+    int n = 4;
+
+    for (int i = 1; i <= n; i++)
+    {
+        for (int j = 1; j <= i; j++)
+        {
+            cout << j << " ";
+        }
+        cout << endl;
     }
+
+    for (int i = n - 1; i >= 1; i--)
+    {
+        for (int j = 1; j <= i; j++)
+        {
+            cout << j << " ";
+        }
+        cout << endl;
+    }
+
+    return 0;
 }
