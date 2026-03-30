@@ -8,6 +8,7 @@ int main()
         sum = sum + a[i];
     }
     printf("The sum is = %d", sum);
+    printf("The Avg is = %d", sum / 3);
 
     return 0;
 }
