@@ -8,7 +8,7 @@ int main()
     {
         b[i] = a[i];
     }
-    printf("new aray");
+    printf("New array");
     for (int i = 0; i < 5; i++)
     {
 
