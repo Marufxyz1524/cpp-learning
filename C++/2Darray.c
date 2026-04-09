@@ -12,6 +12,7 @@ int main()
         }
         printf("\n");
     }
+    //output elements
     printf("\nMatrix : A = \n");
     for (int i = 0; i < 3; i++)
     {
