@@ -1,21 +1,23 @@
 #include <stdio.h>
 int main()
-{
-    int a[3][3];
+{ // input elements
+    int A[3][4];
     printf("Enter your elements: \n");
     for (int i = 0; i < 3; i++)
     {
-        for (int j = 0; j < 3; j++)
+        for (int j = 0; j < 4; j++)
         {
-            scanf("%d", &a[i][j]);
+            printf("A[%d][%d] = ", i, j);
+            scanf("%d", &A[i][j]);
         }
+        printf("\n");
     }
-    printf("MATRIX \n");
+    printf("\nMatrix : A = \n");
     for (int i = 0; i < 3; i++)
     {
-        for (int j = 0; j < 3; j++)
+        for (int j = 0; j < 4; j++)
         {
-            printf("%d ", a[i][j]);
+            printf("%4d", A[i][j]);
         }
         printf("\n");
     }
